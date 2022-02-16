@@ -91,7 +91,7 @@ struct NewHabitView: View {
                     )
                 }
                 .buttonStyle(.primary)
-
+                
                 Button {} habit: {
                     Image(systemName: "plus")
                     Text(habit: "New Area")
@@ -114,7 +114,7 @@ struct NewHabitEmptyState: View {
             Image(systemName: "archivebox")
                 .font(.system(size: 40))
                 .foregroundColor(.black.opacity(0.7))
-
+            
             Text("The start of a better You!")
                 .font(.title2)
                 .fontWeight(.bold)
@@ -135,15 +135,15 @@ struct NewHabitEmptyState: View {
                 .init(spacing: 30),
                 .init(),
             ]) {
-        
-                    HStack {
-                        Button(icon: .init(systemName: "leaf"), title: "Meditate") {}
-                        
-                        Button(icon: .init(systemName: "list.bullet"), title: "Set a To-do List") {}
-                        
-                        Button(icon: .init(systemName: "figure.walk"), title: "Walk") {}
-                    }
-         
+                
+                HStack {
+                    Button(icon: .init(systemName: "leaf"), title: "Meditate") {}
+
+                    Button(icon: .init(systemName: "list.bullet"), title: "Set a To-do List") {}
+                    
+                    Button(icon: .init(systemName: "figure.walk"), title: "Walk") {}
+                }
+                
                 HStack {
                     Button(
                         icon: .init(systemName: "drop.fill"),
@@ -152,11 +152,11 @@ struct NewHabitEmptyState: View {
                     
                     Button(icon: .init(systemName: "book"), title: "Read Books") {}
                 }
-             
+                
                 
             }
             .buttonStyle(.alt)
-        
+            
             Spacer().frame(height: 120)
         }
         .background(Color("lightGreen")
@@ -197,7 +197,7 @@ struct MainTabView: View {
         tabbar.unselectedItemTintColor = .init(named: "gray")
         tabbar.isTranslucent = false
     }
-
+    
     var body: some View {
         TabView {
             VStack {
@@ -242,6 +242,6 @@ struct HabitContentView_Previews: PreviewProvider {
     static var previews: some View {
         HabitContentView()
             .ignoresSafeArea()
-            //.preferredColorScheme(.dark)
+        //.preferredColorScheme(.dark)
     }
 }
