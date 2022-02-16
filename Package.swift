@@ -15,6 +15,7 @@ let package = Package(
         .library(name: "StateManagment", targets: ["StateManagment"]),
         .library(name: "Nett", targets: ["Nett"]),
         .library(name: "Relative", targets: ["Relative"]),
+        .library(name: "AdvanceAlignment", targets: ["AdvanceAlignment"]),
         
         // Point Free Inspiration
         .library(name: "AppFeature", targets: ["AppFeature"]),
@@ -32,7 +33,7 @@ let package = Package(
         .package(url: "https://github.com/pointfreeco/swift-parsing", from: "0.4.0")
     ],
     targets: [
-        
+        .target(name: "AdvanceAlignment"),
         .target(name: "Layout",
                 dependencies: [
                     "KlugHelpers"
