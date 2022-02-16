@@ -23,7 +23,7 @@ public extension View {
 }
 
 public extension View {
-    func center() -> some View {
+    var center: HStack<TupleView<(Spacer, Self, Spacer)>> {
         HStack {
             Spacer()
             self
@@ -32,8 +32,9 @@ public extension View {
     }
 }
 
+#warning("This might be a very bad idea 🤔")
 public extension View {
-    func navigation() -> some View {
+    var navigation: NavigationView<Self> {
         NavigationView { self }
     }
 }
