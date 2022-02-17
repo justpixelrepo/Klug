@@ -15,7 +15,7 @@ public struct HabitButtonStyle: ButtonStyle {
         configuration.label
             .font(font)
             .if(isMaxWidth) {
-                $0.frame(minWidth: 0, idealWidth: 20, maxWidth: .infinity, minHeight: 16, idealHeight: 0, maxHeight: 0, alignment: .center)
+                $0.frame(idealWidth: 20, maxWidth: .infinity, maxHeight: 16)
             }
             .else(isMaxWidth) {
                 $0.frame(height: 0)
