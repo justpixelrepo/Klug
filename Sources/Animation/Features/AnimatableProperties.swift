@@ -75,5 +75,6 @@ struct Animate_Alignment: View {
 struct HueViewPreview: PreviewProvider {
     static var previews: some View {
         Animate_Alignment()
+        HueView()
     }
 }
