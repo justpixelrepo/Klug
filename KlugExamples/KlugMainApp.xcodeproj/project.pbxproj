@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		9F00C532277F9210009647E1 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F00C531277F9210009647E1 /* WeatherView.swift */; };
 		9F00C534277F923B009647E1 /* WeatherRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F00C533277F923B009647E1 /* WeatherRow.swift */; };
-		9F1AC6C8277ED8C300F22E2D /* WeatherPreviewAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1AC6C7277ED8C300F22E2D /* WeatherPreviewAppApp.swift */; };
+		9F1AC6C8277ED8C300F22E2D /* WeatherPreviewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1AC6C7277ED8C300F22E2D /* WeatherPreviewApp.swift */; };
 		9F1AC6CA277ED8C300F22E2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1AC6C9277ED8C300F22E2D /* ContentView.swift */; };
 		9F1AC6CC277ED8C400F22E2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F1AC6CB277ED8C400F22E2D /* Assets.xcassets */; };
 		9F1AC6CF277ED8C400F22E2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F1AC6CE277ED8C400F22E2D /* Preview Assets.xcassets */; };
@@ -30,17 +30,8 @@
 		9F439435273572AD001895E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F439434273572AD001895E6 /* Preview Assets.xcassets */; };
 		9F44E9D2271713CF0074A8D6 /* KlugAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F44E9D1271713CF0074A8D6 /* KlugAnimationApp.swift */; };
 		9F576767278504C600930224 /* CreateHabit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F576766278504C600930224 /* CreateHabit.swift */; };
-		9F787832278E1798002DE36A /* SettingsKitPreviewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F787831278E1798002DE36A /* SettingsKitPreviewApp.swift */; };
-		9F787836278E179A002DE36A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F787835278E179A002DE36A /* Assets.xcassets */; };
-		9F787839278E179A002DE36A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F787838278E179A002DE36A /* Preview Assets.xcassets */; };
-		9F787840278E18C7002DE36A /* AppSettingsKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9F78783F278E18C7002DE36A /* AppSettingsKit */; };
-		9F787842278E18DB002DE36A /* AppSettingsKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9F787841278E18DB002DE36A /* AppSettingsKit */; };
 		9F8D24AD2781359D00D40641 /* PopularHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8D24AC2781359D00D40641 /* PopularHabitView.swift */; };
 		9FA3EE86278C90A30010A71F /* KlugHelpers in Frameworks */ = {isa = PBXBuildFile; productRef = 9FA3EE85278C90A30010A71F /* KlugHelpers */; };
-		9FA636402786FE580042A7CC /* HWSPreviewAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA6363F2786FE580042A7CC /* HWSPreviewAppApp.swift */; };
-		9FA636442786FE590042A7CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FA636432786FE590042A7CC /* Assets.xcassets */; };
-		9FA636472786FE590042A7CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FA636462786FE590042A7CC /* Preview Assets.xcassets */; };
-		9FA6364E278703280042A7CC /* WeSplit in Frameworks */ = {isa = PBXBuildFile; productRef = 9FA6364D278703280042A7CC /* WeSplit */; };
 		9FB7B80E27858D33000A9C92 /* StackCustomAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7B7F027858D33000A9C92 /* StackCustomAlignment.swift */; };
 		9FB7B80F27858D33000A9C92 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7B7F127858D33000A9C92 /* GridView.swift */; };
 		9FB7B81027858D33000A9C92 /* GeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7B7F227858D33000A9C92 /* GeometryReader.swift */; };
@@ -77,7 +68,7 @@
 		9F00C531277F9210009647E1 /* WeatherView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 		9F00C533277F923B009647E1 /* WeatherRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherRow.swift; sourceTree = "<group>"; };
 		9F1AC6C5277ED8C200F22E2D /* WeatherPreviewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherPreviewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F1AC6C7277ED8C300F22E2D /* WeatherPreviewAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherPreviewAppApp.swift; sourceTree = "<group>"; };
+		9F1AC6C7277ED8C300F22E2D /* WeatherPreviewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherPreviewApp.swift; sourceTree = "<group>"; };
 		9F1AC6C9277ED8C300F22E2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9F1AC6CB277ED8C400F22E2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F1AC6CE277ED8C400F22E2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -98,16 +89,7 @@
 		9F44E9CF271713CF0074A8D6 /* AnimationPreviewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationPreviewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F44E9D1271713CF0074A8D6 /* KlugAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlugAnimationApp.swift; sourceTree = "<group>"; };
 		9F576766278504C600930224 /* CreateHabit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateHabit.swift; sourceTree = "<group>"; };
-		9F78782F278E1798002DE36A /* SettingsKitPreviewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SettingsKitPreviewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F787831278E1798002DE36A /* SettingsKitPreviewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsKitPreviewApp.swift; sourceTree = "<group>"; };
-		9F787835278E179A002DE36A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9F787838278E179A002DE36A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9F8D24AC2781359D00D40641 /* PopularHabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularHabitView.swift; sourceTree = "<group>"; };
-		9FA636382786F19F0042A7CC /* HWS */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = HWS; sourceTree = "<group>"; };
-		9FA6363D2786FE580042A7CC /* HWSPreviewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HWSPreviewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FA6363F2786FE580042A7CC /* HWSPreviewAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWSPreviewAppApp.swift; sourceTree = "<group>"; };
-		9FA636432786FE590042A7CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9FA636462786FE590042A7CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9FB7B7F027858D33000A9C92 /* StackCustomAlignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackCustomAlignment.swift; sourceTree = "<group>"; };
 		9FB7B7F127858D33000A9C92 /* GridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		9FB7B7F227858D33000A9C92 /* GeometryReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeometryReader.swift; sourceTree = "<group>"; };
@@ -153,7 +135,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F787840278E18C7002DE36A /* AppSettingsKit in Frameworks */,
 				9F2DE176277AB9610013D45F /* Relative in Frameworks */,
 				9FA3EE86278C90A30010A71F /* KlugHelpers in Frameworks */,
 				9F439410273428DA001895E6 /* Klug in Frameworks */,
@@ -173,22 +154,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FDFC9C9277350B80033FA9D /* Animation in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9F78782C278E1798002DE36A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9F787842278E18DB002DE36A /* AppSettingsKit in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9FA6363A2786FE580042A7CC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9FA6364E278703280042A7CC /* WeSplit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +181,7 @@
 			children = (
 				9F1AC6D6277EDF9A00F22E2D /* Views */,
 				9F1AC6D3277EDCC900F22E2D /* Managers */,
-				9F1AC6C7277ED8C300F22E2D /* WeatherPreviewAppApp.swift */,
+				9F1AC6C7277ED8C300F22E2D /* WeatherPreviewApp.swift */,
 				9F1AC6CB277ED8C400F22E2D /* Assets.xcassets */,
 				9F1AC6CD277ED8C400F22E2D /* Preview Content */,
 				9F1AC6E5277F03E400F22E2D /* Extensions.swift */,
@@ -260,11 +225,8 @@
 			isa = PBXGroup;
 			children = (
 				9F44E9D0271713CF0074A8D6 /* AnimationPreviewApp */,
-				9F787830278E1798002DE36A /* SettingsKitPreviewApp */,
 				9F39A5DC26E2F8D6009253CB /* Frameworks */,
 				9F43942C273572AB001895E6 /* HabitTrackerPreviewApp */,
-				9FA636382786F19F0042A7CC /* HWS */,
-				9FA6363E2786FE580042A7CC /* HWSPreviewApp */,
 				9FD5B7272771EBB700C4833B /* ItemRowPreviewApp */,
 				9F39A5CD26E2F784009253CB /* KlugMainApp */,
 				9FC62100270E61F800942638 /* NavigationPreviewApp */,
@@ -282,8 +244,6 @@
 				9F43942B273572AA001895E6 /* HabitTrackerPreviewApp.app */,
 				9FD5B7262771EBB700C4833B /* ItemRowPreviewApp.app */,
 				9F1AC6C5277ED8C200F22E2D /* WeatherPreviewApp.app */,
-				9FA6363D2786FE580042A7CC /* HWSPreviewApp.app */,
-				9F78782F278E1798002DE36A /* SettingsKitPreviewApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -334,42 +294,6 @@
 				9F44E9D1271713CF0074A8D6 /* KlugAnimationApp.swift */,
 			);
 			path = AnimationPreviewApp;
-			sourceTree = "<group>";
-		};
-		9F787830278E1798002DE36A /* SettingsKitPreviewApp */ = {
-			isa = PBXGroup;
-			children = (
-				9F787831278E1798002DE36A /* SettingsKitPreviewApp.swift */,
-				9F787835278E179A002DE36A /* Assets.xcassets */,
-				9F787837278E179A002DE36A /* Preview Content */,
-			);
-			path = SettingsKitPreviewApp;
-			sourceTree = "<group>";
-		};
-		9F787837278E179A002DE36A /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				9F787838278E179A002DE36A /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		9FA6363E2786FE580042A7CC /* HWSPreviewApp */ = {
-			isa = PBXGroup;
-			children = (
-				9FA6363F2786FE580042A7CC /* HWSPreviewAppApp.swift */,
-				9FA636432786FE590042A7CC /* Assets.xcassets */,
-				9FA636452786FE590042A7CC /* Preview Content */,
-			);
-			path = HWSPreviewApp;
-			sourceTree = "<group>";
-		};
-		9FA636452786FE590042A7CC /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				9FA636462786FE590042A7CC /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		9FB7B7EF27858D33000A9C92 /* Dimensions */ = {
@@ -528,7 +452,6 @@
 				9F43940F273428DA001895E6 /* Klug */,
 				9F2DE175277AB9610013D45F /* Relative */,
 				9FA3EE85278C90A30010A71F /* KlugHelpers */,
-				9F78783F278E18C7002DE36A /* AppSettingsKit */,
 			);
 			productName = Example;
 			productReference = 9F39A5CB26E2F784009253CB /* KlugMainApp.app */;
@@ -572,46 +495,6 @@
 			);
 			productName = KlugAnimation;
 			productReference = 9F44E9CF271713CF0074A8D6 /* AnimationPreviewApp.app */;
-			productType = "com.apple.product-type.application";
-		};
-		9F78782E278E1798002DE36A /* SettingsKitPreviewApp */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9F78783C278E179A002DE36A /* Build configuration list for PBXNativeTarget "SettingsKitPreviewApp" */;
-			buildPhases = (
-				9F78782B278E1798002DE36A /* Sources */,
-				9F78782C278E1798002DE36A /* Frameworks */,
-				9F78782D278E1798002DE36A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SettingsKitPreviewApp;
-			packageProductDependencies = (
-				9F787841278E18DB002DE36A /* AppSettingsKit */,
-			);
-			productName = SettingsKitPreviewApp;
-			productReference = 9F78782F278E1798002DE36A /* SettingsKitPreviewApp.app */;
-			productType = "com.apple.product-type.application";
-		};
-		9FA6363C2786FE580042A7CC /* HWSPreviewApp */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9FA636482786FE590042A7CC /* Build configuration list for PBXNativeTarget "HWSPreviewApp" */;
-			buildPhases = (
-				9FA636392786FE580042A7CC /* Sources */,
-				9FA6363A2786FE580042A7CC /* Frameworks */,
-				9FA6363B2786FE580042A7CC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = HWSPreviewApp;
-			packageProductDependencies = (
-				9FA6364D278703280042A7CC /* WeSplit */,
-			);
-			productName = HWSPreviewApp;
-			productReference = 9FA6363D2786FE580042A7CC /* HWSPreviewApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9FC620FE270E61F800942638 /* NavigationPreviewApp */ = {
@@ -677,12 +560,6 @@
 					9F44E9CE271713CF0074A8D6 = {
 						CreatedOnToolsVersion = 13.0;
 					};
-					9F78782E278E1798002DE36A = {
-						CreatedOnToolsVersion = 13.2.1;
-					};
-					9FA6363C2786FE580042A7CC = {
-						CreatedOnToolsVersion = 13.2.1;
-					};
 					9FC620FE270E61F800942638 = {
 						CreatedOnToolsVersion = 13.0;
 					};
@@ -701,8 +578,6 @@
 			);
 			mainGroup = 9F39A5C226E2F784009253CB;
 			packageReferences = (
-				9FA3EE87278C99670010A71F /* XCRemoteSwiftPackageReference "Klug" */,
-				9F78783E278E18C6002DE36A /* XCRemoteSwiftPackageReference "AppSettingsKit" */,
 			);
 			productRefGroup = 9F39A5CC26E2F784009253CB /* Products */;
 			projectDirPath = "";
@@ -714,8 +589,6 @@
 				9F43942A273572AA001895E6 /* HabitTrackerPreviewApp */,
 				9FD5B7252771EBB700C4833B /* ItemRowPreviewApp */,
 				9F1AC6C4277ED8C200F22E2D /* WeatherPreviewApp */,
-				9FA6363C2786FE580042A7CC /* HWSPreviewApp */,
-				9F78782E278E1798002DE36A /* SettingsKitPreviewApp */,
 			);
 		};
 /* End PBXProject section */
@@ -755,24 +628,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F78782D278E1798002DE36A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9F787839278E179A002DE36A /* Preview Assets.xcassets in Resources */,
-				9F787836278E179A002DE36A /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9FA6363B2786FE580042A7CC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9FA636472786FE590042A7CC /* Preview Assets.xcassets in Resources */,
-				9FA636442786FE590042A7CC /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9FC620FD270E61F800942638 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -804,7 +659,7 @@
 				9F00C534277F923B009647E1 /* WeatherRow.swift in Sources */,
 				9F1AC6E4277F031D00F22E2D /* ModelData.swift in Sources */,
 				9F1AC6CA277ED8C300F22E2D /* ContentView.swift in Sources */,
-				9F1AC6C8277ED8C300F22E2D /* WeatherPreviewAppApp.swift in Sources */,
+				9F1AC6C8277ED8C300F22E2D /* WeatherPreviewApp.swift in Sources */,
 				9F1AC6E6277F03E400F22E2D /* Extensions.swift in Sources */,
 				9F1AC6D5277EDCE400F22E2D /* LocationManager.swift in Sources */,
 				9F1AC6DA277EE82600F22E2D /* LoadingView.swift in Sources */,
@@ -855,22 +710,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F44E9D2271713CF0074A8D6 /* KlugAnimationApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9F78782B278E1798002DE36A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9F787832278E1798002DE36A /* SettingsKitPreviewApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9FA636392786FE580042A7CC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9FA636402786FE580042A7CC /* HWSPreviewAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1252,124 +1091,6 @@
 			};
 			name = Release;
 		};
-		9F78783A278E179A002DE36A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SettingsKitPreviewApp/Preview Content\"";
-				DEVELOPMENT_TEAM = CLCZFAVBGV;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.justpixel.SettingsKitPreviewApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		9F78783B278E179A002DE36A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SettingsKitPreviewApp/Preview Content\"";
-				DEVELOPMENT_TEAM = CLCZFAVBGV;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.justpixel.SettingsKitPreviewApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		9FA636492786FE590042A7CC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HWSPreviewApp/Preview Content\"";
-				DEVELOPMENT_TEAM = CLCZFAVBGV;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.justpixel.HWSPreviewApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		9FA6364A2786FE590042A7CC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HWSPreviewApp/Preview Content\"";
-				DEVELOPMENT_TEAM = CLCZFAVBGV;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.justpixel.HWSPreviewApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		9FC6210B270E61FA00942638 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1540,24 +1261,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9F78783C278E179A002DE36A /* Build configuration list for PBXNativeTarget "SettingsKitPreviewApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9F78783A278E179A002DE36A /* Debug */,
-				9F78783B278E179A002DE36A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9FA636482786FE590042A7CC /* Build configuration list for PBXNativeTarget "HWSPreviewApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9FA636492786FE590042A7CC /* Debug */,
-				9FA6364A2786FE590042A7CC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		9FC6210A270E61FA00942638 /* Build configuration list for PBXNativeTarget "NavigationPreviewApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1578,25 +1281,6 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		9F78783E278E18C6002DE36A /* XCRemoteSwiftPackageReference "AppSettingsKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/codebendr-product-designer/AppSettingsKit";
-			requirement = {
-				branch = develop;
-				kind = branch;
-			};
-		};
-		9FA3EE87278C99670010A71F /* XCRemoteSwiftPackageReference "Klug" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/codebendr-product-designer/Klug";
-			requirement = {
-				branch = develop;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
 /* Begin XCSwiftPackageProductDependency section */
 		9F29B7B22772E7B900D3431D /* HabitTrackerButtons */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -1610,23 +1294,9 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = Klug;
 		};
-		9F78783F278E18C7002DE36A /* AppSettingsKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 9F78783E278E18C6002DE36A /* XCRemoteSwiftPackageReference "AppSettingsKit" */;
-			productName = AppSettingsKit;
-		};
-		9F787841278E18DB002DE36A /* AppSettingsKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 9F78783E278E18C6002DE36A /* XCRemoteSwiftPackageReference "AppSettingsKit" */;
-			productName = AppSettingsKit;
-		};
 		9FA3EE85278C90A30010A71F /* KlugHelpers */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = KlugHelpers;
-		};
-		9FA6364D278703280042A7CC /* WeSplit */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = WeSplit;
 		};
 		9FD5B7202771817800C4833B /* AppFeature */ = {
 			isa = XCSwiftPackageProductDependency;

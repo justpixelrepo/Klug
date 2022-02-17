@@ -8,7 +8,7 @@ let package = Package(
     products: [
         .library(name: "Klug", targets: ["Klug"]),
         .library(name: "KlugHelpers", targets: ["KlugHelpers"]),
-        .library(name: "HabitTrackerButtons", targets: ["HabitTrackerButtons"]),
+        .library(name: "HabitTracker", targets: ["HabitTracker"]),
         .library(name: "Animation", targets: ["Animation"]),
         .library(name: "Layout", targets: ["Layout"]),
         .library(name: "Accessibility", targets: ["Accessibility"]),
@@ -56,7 +56,7 @@ let package = Package(
         
         .target(name: "KlugHelpers"),
         
-        .target(name: "HabitTrackerButtons",
+        .target(name: "HabitTracker",
                 dependencies: ["Klug", "KlugHelpers"]),
         
         .target(name: "Animation"),

@@ -2,15 +2,6 @@
   "object": {
     "pins": [
       {
-        "package": "AppSettingsKit",
-        "repositoryURL": "https://github.com/codebendr-product-designer/AppSettingsKit",
-        "state": {
-          "branch": "develop",
-          "revision": "ec60f8bf8713cf28ca981c349eaef969bfc6bb3f",
-          "version": null
-        }
-      },
-      {
         "package": "swift-case-paths",
         "repositoryURL": "https://github.com/pointfreeco/swift-case-paths",
         "state": {
