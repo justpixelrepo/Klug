@@ -1,5 +1,6 @@
 import SwiftUI
 
+#warning("rewrite this using custom views and modifiers")
 public extension Klug {
     
     typealias SocialButtonStyle = Klug.Social.Style

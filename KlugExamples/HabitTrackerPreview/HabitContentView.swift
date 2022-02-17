@@ -1,5 +1,4 @@
-import HabitTrackerButtons
-import Klug
+import HabitTracker
 import SwiftUI
 
 struct HabitContentView: View {

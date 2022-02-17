@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9F43942A273572AA001895E6"
-               BuildableName = "HabitTrackerPreviewApp.app"
-               BlueprintName = "HabitTrackerPreviewApp"
+               BuildableName = "HabitTrackerPreview.app"
+               BlueprintName = "HabitTrackerPreview"
                ReferencedContainer = "container:KlugMainApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,8 +45,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9F43942A273572AA001895E6"
-            BuildableName = "HabitTrackerPreviewApp.app"
-            BlueprintName = "HabitTrackerPreviewApp"
+            BuildableName = "HabitTrackerPreview.app"
+            BlueprintName = "HabitTrackerPreview"
             ReferencedContainer = "container:KlugMainApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -61,8 +61,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9F43942A273572AA001895E6"
-            BuildableName = "HabitTrackerPreviewApp.app"
-            BlueprintName = "HabitTrackerPreviewApp"
+            BuildableName = "HabitTrackerPreview.app"
+            BlueprintName = "HabitTrackerPreview"
             ReferencedContainer = "container:KlugMainApp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

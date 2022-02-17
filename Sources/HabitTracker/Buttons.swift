@@ -146,7 +146,7 @@ struct Button_Previews: PreviewProvider {
                 Image(systemName: "list.dash")
                 Text(habit: "To-do's")
             }
-            .buttonStyle(.bordered)
+            .buttonStyle(.borderedProminent)
             .tint(.mint)
             .controlSize(.small)
         }
