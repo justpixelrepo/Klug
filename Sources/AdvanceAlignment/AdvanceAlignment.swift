@@ -11,7 +11,7 @@ struct Tree<A>: Identifiable {
     var value: A
     var children = [Tree<A>]()
     var id = UUID()
-
+    
     init(value: A, children: [Tree<A>] = []) {
         self.value = value
         self.children = children
@@ -19,14 +19,14 @@ struct Tree<A>: Identifiable {
 }
 
 let sample = Tree(value: "Root", children: [
-    .init(value: "First Child"),
+    .init(value: "First Child diagram"),
     .init(value: "Second Child")
 ])
 
 struct Line: Shape {
     var from: CGPoint
     var to: CGPoint
-
+    
     func path(in rect: CGRect) -> Path {
         .init { p in
             p.move(to: from)
@@ -39,7 +39,7 @@ struct FrameKey: PreferenceKey {
     static func reduce(value: inout [UUID: CGRect], nextValue: () -> [UUID: CGRect]) {
         value.merge(nextValue(), uniquingKeysWith: { $1 })
     }
-
+    
     static var defaultValue: [UUID: CGRect] { [:] }
 }
 
@@ -53,11 +53,17 @@ extension View {
     }
 }
 
+extension CGRect {
+    subscript(point: UnitPoint) -> CGPoint {
+        CGPoint(x: minX + point.x * width, y: minY + point.y * height)
+    }
+}
+
 struct Diagram<A, Node: View>: View {
     var tree: Tree<A>
     @ViewBuilder var node: (A) -> Node
     let coordinateSpace = "diagram"
-
+    
     var body: some View {
         VStack(spacing: 20) {
             node(tree.value)
@@ -72,12 +78,13 @@ struct Diagram<A, Node: View>: View {
         .backgroundPreferenceValue(FrameKey.self) { frames in
             let rootFrame = frames[tree.id]!
             let childFrames: [(UUID, CGRect)] = frames.filter { $0.key != tree.id }
-            ForEach(childFrames, id: \.0) { _, childFrame in
-                Line(from: rootFrame.origin, to: childFrame.origin)
+            ForEach(childFrames, id: \.0) { (_, childFrame) in
+                Line(from: rootFrame[.bottom], to: childFrame[.top])
                     .stroke(lineWidth: 1)
-            }
+            }
         }
         .coordinateSpace(name: coordinateSpace)
+        .preference(key: FrameKey.self, value: [:])
     }
 }
 
