@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/codebendr/Documents/Projects/2021/JustPixel/Nett/NettExample.xcodeproj">
+      location = "self:">
    </FileRef>
 </Workspace>

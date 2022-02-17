@@ -5,9 +5,9 @@
       location = "group:NettExample/NettExample.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:">
+      location = "group:KlugExamples/KlugMainApp.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:KlugExamples/KlugMainApp.xcodeproj">
+      location = "group:">
    </FileRef>
 </Workspace>

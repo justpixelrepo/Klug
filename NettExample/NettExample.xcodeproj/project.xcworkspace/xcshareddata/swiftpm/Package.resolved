@@ -2,11 +2,11 @@
   "object": {
     "pins": [
       {
-        "package": "AppSettingsKit",
-        "repositoryURL": "https://github.com/codebendr-product-designer/AppSettingsKit",
+        "package": "Klug",
+        "repositoryURL": "https://github.com/codebendr-product-designer/Klug",
         "state": {
           "branch": "develop",
-          "revision": "ec60f8bf8713cf28ca981c349eaef969bfc6bb3f",
+          "revision": "646bc70b27f9f05e224ffc03dce787df5860cd31",
           "version": null
         }
       },
