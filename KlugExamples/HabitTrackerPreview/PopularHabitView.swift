@@ -20,7 +20,6 @@ public extension LabelStyle where Self == TitleFirstLabelStyle {
 }
 
 
-
 struct PopularHabitView: View {
     @State var isPresented = false
     
@@ -105,7 +104,6 @@ struct PopularHabitView: View {
                 CreateHabit()
             }
 
-        
     }
 }
 
