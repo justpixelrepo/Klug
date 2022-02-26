@@ -29,6 +29,7 @@
 		9F439435273572AD001895E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F439434273572AD001895E6 /* Preview Assets.xcassets */; };
 		9F44E9D2271713CF0074A8D6 /* KlugAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F44E9D1271713CF0074A8D6 /* KlugAnimationApp.swift */; };
 		9F576767278504C600930224 /* CreateHabit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F576766278504C600930224 /* CreateHabit.swift */; };
+		9F8A562227CAC2D0002ED5B8 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8A562127CAC2D0002ED5B8 /* Course.swift */; };
 		9F8D24AD2781359D00D40641 /* PopularHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8D24AC2781359D00D40641 /* PopularHabitView.swift */; };
 		9FA3EE86278C90A30010A71F /* KlugHelpers in Frameworks */ = {isa = PBXBuildFile; productRef = 9FA3EE85278C90A30010A71F /* KlugHelpers */; };
 		9FB7B80E27858D33000A9C92 /* StackCustomAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7B7F027858D33000A9C92 /* StackCustomAlignment.swift */; };
@@ -89,6 +90,7 @@
 		9F44E9CF271713CF0074A8D6 /* AnimationPreviewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationPreviewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F44E9D1271713CF0074A8D6 /* KlugAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlugAnimationApp.swift; sourceTree = "<group>"; };
 		9F576766278504C600930224 /* CreateHabit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateHabit.swift; sourceTree = "<group>"; };
+		9F8A562127CAC2D0002ED5B8 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		9F8D24AC2781359D00D40641 /* PopularHabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularHabitView.swift; sourceTree = "<group>"; };
 		9FB7B7F027858D33000A9C92 /* StackCustomAlignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackCustomAlignment.swift; sourceTree = "<group>"; };
 		9FB7B7F127858D33000A9C92 /* GridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
@@ -402,6 +404,7 @@
 			children = (
 				9FE77BE1279A244B002A4E98 /* PreferenceKeys.swift */,
 				9FE77BE2279A244B002A4E98 /* Tab.swift */,
+				9F8A562127CAC2D0002ED5B8 /* Course.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -686,6 +689,7 @@
 				9FB7B81327858D33000A9C92 /* CustomViews.swift in Sources */,
 				9FE77BE7279A244B002A4E98 /* NavigationBar.swift in Sources */,
 				9FB7B81027858D33000A9C92 /* GeometryReader.swift in Sources */,
+				9F8A562227CAC2D0002ED5B8 /* Course.swift in Sources */,
 				9FE77BEE279A244B002A4E98 /* ScrollDetectionView.swift in Sources */,
 				9FE77BF0279A244B002A4E98 /* Tab.swift in Sources */,
 				9FB7B81227858D33000A9C92 /* CustomButtons.swift in Sources */,
