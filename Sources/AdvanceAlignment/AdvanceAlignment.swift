@@ -12,15 +12,22 @@ struct Tree<A>: Identifiable {
     var children = [Tree<A>]()
     var id = UUID()
     
-    init(value: A, children: [Tree<A>] = []) {
+    init(_ value: A, children: [Tree<A>] = []) {
         self.value = value
         self.children = children
     }
 }
 
-let sample = Tree(value: "Root", children: [
-    .init(value: "First Child diagram"),
-    .init(value: "Second Child")
+let sample = Tree("Root", children: [
+    .init("First Child With Some More Text"),
+    .init("Second Child"),
+    .init("Third"),
+    .init("A fourth child", children: [
+        .init("Level 3 One"),
+        .init("Level 3 Two"),
+        .init("Level 3 Two"),
+        .init("Level 3 Two"),
+    ]),
 ])
 
 struct Line: Shape {
@@ -53,6 +60,16 @@ extension View {
     }
 }
 
+struct NodeCenter: AlignmentID {
+    static func defaultValue(in context: ViewDimensions) -> CGFloat {
+        context[HorizontalAlignment.center]
+    }
+}
+
+extension HorizontalAlignment {
+    static let nodeCenter = Self(NodeCenter.self)
+}
+
 extension CGRect {
     subscript(point: UnitPoint) -> CGPoint {
         CGPoint(x: minX + point.x * width, y: minY + point.y * height)
@@ -64,14 +81,29 @@ struct Diagram<A, Node: View>: View {
     @ViewBuilder var node: (A) -> Node
     let coordinateSpace = "diagram"
     
+    func computeGuideIDs() -> Set<UUID> {
+        var ids: Set<UUID> = []
+        let centerIdx = tree.children.count/2
+        ids.insert(tree.children[centerIdx].id)
+        if tree.children.count.isMultiple(of: 2) {
+            ids.insert(tree.children[centerIdx - 1].id)
+        }
+        return ids
+    }
+    
     var body: some View {
-        VStack(spacing: 20) {
+        VStack(alignment: .nodeCenter, spacing: 20) {
             node(tree.value)
                 .measureFrame(in: .named(coordinateSpace), id: tree.id)
-            HStack(spacing: 20) {
-                ForEach(tree.children) { child in
-                    Diagram(tree: child, node: node)
-                        .measureFrame(in: .named(coordinateSpace), id: child.id)
+            if !tree.children.isEmpty {
+                let guideIDs = computeGuideIDs()
+                HStack(alignment: .top, spacing: 20) {
+                    ForEach(tree.children) { child in
+                        let subtree = Diagram(tree: child, node: node)
+                            .measureFrame(in: .named(coordinateSpace), id: child.id)
+                        let alignment: HorizontalAlignment = guideIDs.contains(child.id) ? .nodeCenter : .center
+                        subtree.alignmentGuide(alignment) { $0[HorizontalAlignment.center] }
+                    }
                 }
             }
         }
