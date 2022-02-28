@@ -1,4 +1,5 @@
 import SwiftUI
+import UIKit
 
 public extension Color {
     static let habitBlue = Self(#colorLiteral(red: 0.1449999958, green: 0.1490000039, blue: 0.2509999871, alpha: 1))
@@ -13,3 +14,17 @@ public extension Color {
     static let habitYellow =  Self(#colorLiteral(red: 0.9610000253, green: 0.8709999919, blue: 0.5220000148, alpha: 1))
 }
 
+#warning("to manage high contrast colors")
+private var customLabelColor: UIColor {
+    get {
+        let highContrast = UIAccessibility.isDarkerSystemColorsEnabled
+        return UIColor { traitCollection in
+            switch traitCollection.userInterfaceStyle {
+            case .light: return highContrast ? .blue : .green
+            case .dark:  return highContrast ? .red : .purple
+            case .unspecified: return .clear
+            @unknown default: fatalError()
+            }
+        }
+    }
+}
