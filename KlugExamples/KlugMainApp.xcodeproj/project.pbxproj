@@ -63,6 +63,16 @@
 		9FE77BF1279A244B002A4E98 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE77BE4279A244B002A4E98 /* HomeView.swift */; };
 		9FE77BF2279A244B002A4E98 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE77BE5279A244B002A4E98 /* AccountView.swift */; };
 		9FEC41E427BF0A43008DBB10 /* HabitTracker in Frameworks */ = {isa = PBXBuildFile; productRef = 9FEC41E327BF0A43008DBB10 /* HabitTracker */; };
+		9FFBFE7C27CAF83300E1233E /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFBFE6F27CAF83200E1233E /* TaskRow.swift */; };
+		9FFBFE7D27CAF83300E1233E /* SmallAddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFBFE7027CAF83200E1233E /* SmallAddButton.swift */; };
+		9FFBFE7E27CAF83300E1233E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FFBFE7127CAF83300E1233E /* Assets.xcassets */; };
+		9FFBFE7F27CAF83300E1233E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FFBFE7327CAF83300E1233E /* Preview Assets.xcassets */; };
+		9FFBFE8127CAF83300E1233E /* ToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFBFE7527CAF83300E1233E /* ToDoApp.swift */; };
+		9FFBFE8227CAF83300E1233E /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFBFE7727CAF83300E1233E /* AddTaskView.swift */; };
+		9FFBFE8327CAF83300E1233E /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFBFE7827CAF83300E1233E /* TasksView.swift */; };
+		9FFBFE8427CAF83300E1233E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFBFE7927CAF83300E1233E /* ContentView.swift */; };
+		9FFBFE8527CAF83300E1233E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFBFE7A27CAF83300E1233E /* Extensions.swift */; };
+		9FFBFE8827CAF99400E1233E /* Todos in Frameworks */ = {isa = PBXBuildFile; productRef = 9FFBFE8727CAF99400E1233E /* Todos */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -123,6 +133,16 @@
 		9FE77BE2279A244B002A4E98 /* Tab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		9FE77BE4279A244B002A4E98 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		9FE77BE5279A244B002A4E98 /* AccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		9FFBFE6027CAF7F300E1233E /* TodoPreviewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoPreviewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FFBFE6F27CAF83200E1233E /* TaskRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+		9FFBFE7027CAF83200E1233E /* SmallAddButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallAddButton.swift; sourceTree = "<group>"; };
+		9FFBFE7127CAF83300E1233E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FFBFE7327CAF83300E1233E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9FFBFE7527CAF83300E1233E /* ToDoApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoApp.swift; sourceTree = "<group>"; };
+		9FFBFE7727CAF83300E1233E /* AddTaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		9FFBFE7827CAF83300E1233E /* TasksView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		9FFBFE7927CAF83300E1233E /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9FFBFE7A27CAF83300E1233E /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +192,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FD5B7352771EBDC00C4833B /* ItemRowFeature in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FFBFE5D27CAF7F300E1233E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FFBFE8827CAF99400E1233E /* Todos in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +255,7 @@
 			isa = PBXGroup;
 			children = (
 				9F44E9D0271713CF0074A8D6 /* AnimationPreviewApp */,
+				9FFBFE6127CAF7F300E1233E /* TodoPreviewApp */,
 				9F39A5DC26E2F8D6009253CB /* Frameworks */,
 				9F43942C273572AB001895E6 /* HabitTrackerPreview */,
 				9FD5B7272771EBB700C4833B /* ItemRowPreviewApp */,
@@ -246,6 +275,7 @@
 				9F43942B273572AA001895E6 /* HabitTrackerPreview.app */,
 				9FD5B7262771EBB700C4833B /* ItemRowPreviewApp.app */,
 				9F1AC6C5277ED8C200F22E2D /* WeatherPreviewApp.app */,
+				9FFBFE6027CAF7F300E1233E /* TodoPreviewApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -418,6 +448,48 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		9FFBFE6127CAF7F300E1233E /* TodoPreviewApp */ = {
+			isa = PBXGroup;
+			children = (
+				9FFBFE7127CAF83300E1233E /* Assets.xcassets */,
+				9FFBFE6E27CAF83200E1233E /* Components */,
+				9FFBFE7A27CAF83300E1233E /* Extensions.swift */,
+				9FFBFE7227CAF83300E1233E /* Preview Content */,
+				9FFBFE7527CAF83300E1233E /* ToDoApp.swift */,
+				9FFBFE7627CAF83300E1233E /* Views */,
+			);
+			path = TodoPreviewApp;
+			sourceTree = "<group>";
+		};
+		9FFBFE6E27CAF83200E1233E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9FFBFE6F27CAF83200E1233E /* TaskRow.swift */,
+				9FFBFE7027CAF83200E1233E /* SmallAddButton.swift */,
+			);
+			name = Components;
+			path = "../../../../../../../Downloads/To-Do App Source Files/Completed Project/ToDo/Components";
+			sourceTree = "<group>";
+		};
+		9FFBFE7227CAF83300E1233E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9FFBFE7327CAF83300E1233E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9FFBFE7627CAF83300E1233E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9FFBFE7727CAF83300E1233E /* AddTaskView.swift */,
+				9FFBFE7827CAF83300E1233E /* TasksView.swift */,
+				9FFBFE7927CAF83300E1233E /* ContentView.swift */,
+			);
+			name = Views;
+			path = "../../../../../../../Downloads/To-Do App Source Files/Completed Project/ToDo/Views";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -540,6 +612,26 @@
 			productReference = 9FD5B7262771EBB700C4833B /* ItemRowPreviewApp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		9FFBFE5F27CAF7F300E1233E /* TodoPreviewApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FFBFE6D27CAF7F300E1233E /* Build configuration list for PBXNativeTarget "TodoPreviewApp" */;
+			buildPhases = (
+				9FFBFE5C27CAF7F300E1233E /* Sources */,
+				9FFBFE5D27CAF7F300E1233E /* Frameworks */,
+				9FFBFE5E27CAF7F300E1233E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TodoPreviewApp;
+			packageProductDependencies = (
+				9FFBFE8727CAF99400E1233E /* Todos */,
+			);
+			productName = TodoPreviewApp;
+			productReference = 9FFBFE6027CAF7F300E1233E /* TodoPreviewApp.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -569,6 +661,10 @@
 					9FD5B7252771EBB700C4833B = {
 						CreatedOnToolsVersion = 13.2;
 					};
+					9FFBFE5F27CAF7F300E1233E = {
+						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
+					};
 				};
 			};
 			buildConfigurationList = 9F39A5C626E2F784009253CB /* Build configuration list for PBXProject "KlugMainApp" */;
@@ -592,6 +688,7 @@
 				9F43942A273572AA001895E6 /* HabitTrackerPreview */,
 				9FD5B7252771EBB700C4833B /* ItemRowPreviewApp */,
 				9F1AC6C4277ED8C200F22E2D /* WeatherPreviewApp */,
+				9FFBFE5F27CAF7F300E1233E /* TodoPreviewApp */,
 			);
 		};
 /* End PBXProject section */
@@ -646,6 +743,15 @@
 			files = (
 				9FD5B7302771EBB900C4833B /* Preview Assets.xcassets in Resources */,
 				9FD5B72D2771EBB900C4833B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FFBFE5E27CAF7F300E1233E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FFBFE7F27CAF83300E1233E /* Preview Assets.xcassets in Resources */,
+				9FFBFE7E27CAF83300E1233E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -730,6 +836,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FD5B7292771EBB700C4833B /* ItemRowPreviewAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FFBFE5C27CAF7F300E1233E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FFBFE7C27CAF83300E1233E /* TaskRow.swift in Sources */,
+				9FFBFE8327CAF83300E1233E /* TasksView.swift in Sources */,
+				9FFBFE8427CAF83300E1233E /* ContentView.swift in Sources */,
+				9FFBFE8527CAF83300E1233E /* Extensions.swift in Sources */,
+				9FFBFE8227CAF83300E1233E /* AddTaskView.swift in Sources */,
+				9FFBFE7D27CAF83300E1233E /* SmallAddButton.swift in Sources */,
+				9FFBFE8127CAF83300E1233E /* ToDoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1217,6 +1337,67 @@
 			};
 			name = Release;
 		};
+		9FFBFE6B27CAF7F300E1233E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = CLCZFAVBGV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.justpixel.TodoPreviewApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FFBFE6C27CAF7F300E1233E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = CLCZFAVBGV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.justpixel.TodoPreviewApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1283,6 +1464,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		9FFBFE6D27CAF7F300E1233E /* Build configuration list for PBXNativeTarget "TodoPreviewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FFBFE6B27CAF7F300E1233E /* Debug */,
+				9FFBFE6C27CAF7F300E1233E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1313,6 +1503,10 @@
 		9FEC41E327BF0A43008DBB10 /* HabitTracker */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = HabitTracker;
+		};
+		9FFBFE8727CAF99400E1233E /* Todos */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Todos;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

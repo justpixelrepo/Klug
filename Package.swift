@@ -16,6 +16,7 @@ let package = Package(
         .library(name: "Nett", targets: ["Nett"]),
         .library(name: "Relative", targets: ["Relative"]),
         .library(name: "AdvanceAlignment", targets: ["AdvanceAlignment"]),
+        .library(name: "Todos", targets: ["Todos"]),
         
         // Point Free Inspiration
         .library(name: "AppFeature", targets: ["AppFeature"]),
@@ -30,9 +31,14 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/pointfreeco/swift-case-paths", from: "0.7.0"),
         .package(url: "https://github.com/pointfreeco/swift-identified-collections", from: "0.3.2"),
-        .package(url: "https://github.com/pointfreeco/swift-parsing", from: "0.4.0")
+        .package(url: "https://github.com/pointfreeco/swift-parsing", from: "0.4.0"),
+        .package(url: "https://github.com/realm/realm-cocoa", from: "10.10.0"),
     ],
     targets: [
+        .target(name: "Todos", dependencies: [
+            .product(name: "Realm", package: "realm-cocoa"),
+            .product(name: "RealmSwift", package: "realm-cocoa")
+        ]),
         .target(name: "AdvanceAlignment"),
         .target(name: "Layout",
                 dependencies: [

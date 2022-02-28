@@ -2,12 +2,21 @@
   "object": {
     "pins": [
       {
-        "package": "Klug",
-        "repositoryURL": "https://github.com/codebendr-product-designer/Klug",
+        "package": "Realm",
+        "repositoryURL": "https://github.com/realm/realm-cocoa",
         "state": {
-          "branch": "develop",
-          "revision": "646bc70b27f9f05e224ffc03dce787df5860cd31",
-          "version": null
+          "branch": null,
+          "revision": "9dff9f2862240d521ad6ad599541269177ddb993",
+          "version": "10.22.0"
+        }
+      },
+      {
+        "package": "RealmDatabase",
+        "repositoryURL": "https://github.com/realm/realm-core",
+        "state": {
+          "branch": null,
+          "revision": "6b81f1a7a2d421f9e0b9e7f04e76bcf736a54409",
+          "version": "11.9.0"
         }
       },
       {
@@ -42,8 +51,8 @@
         "repositoryURL": "https://github.com/pointfreeco/swift-parsing",
         "state": {
           "branch": null,
-          "revision": "00ded1efa7d78700130a876d6ec925e37cc41ca2",
-          "version": "0.7.0"
+          "revision": "85e1c50d03999a2b53d30ddae4d0f2a3d872b335",
+          "version": "0.7.1"
         }
       }
     ]
