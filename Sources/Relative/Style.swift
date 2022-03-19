@@ -6,7 +6,7 @@ public protocol Style {
 }
 extension NSObject: Style {}
 public extension Style where Self: AnyObject {
-  //  @inlinable
+    @inlinable
     init(_ block: (Self) -> Void) {
         self.init()
         block(self)
