@@ -1,8 +1,7 @@
 import UIKit
-
-#if canImport(SwiftUI) && DEBUG
 import SwiftUI
-struct UIViewControllerPreview<ViewController: UIViewController>: UIViewControllerRepresentable {
+
+public struct UIViewControllerPreview<ViewController: UIViewController>: UIViewControllerRepresentable {
     let viewController: ViewController
     
     func updateUIViewController(context: Context) -> ViewController {
@@ -14,17 +13,14 @@ struct UIViewControllerPreview<ViewController: UIViewController>: UIViewControll
     }
 
     // MARK: - UIViewControllerRepresentable
-    func makeUIViewController(context: Context) -> ViewController {
+    public func makeUIViewController(context: Context) -> ViewController {
         viewController
     }
     
-    func updateUIViewController(_ uiViewController: ViewController, context: Context) {}
+    public func updateUIViewController(_ uiViewController: ViewController, context: Context) {}
 }
-#endif
 
-#if canImport(SwiftUI) && DEBUG
-import SwiftUI
-struct UIViewPreview<View: UIView>: UIViewRepresentable {
+public struct UIViewPreview<View: UIView>: UIViewRepresentable {
     let view: View
     
     init(_ builder: @escaping () -> View) {
@@ -32,24 +28,26 @@ struct UIViewPreview<View: UIView>: UIViewRepresentable {
     }
     
     // MARK: UIViewRepresentable
-    func makeUIView(context: Context) -> UIView {
+    public func makeUIView(context: Context) -> UIView {
         return view
     }
     
-    func updateUIView(_ view: UIView, context: Context) {
+    public func updateUIView(_ view: UIView, context: Context) {
         view.setContentHuggingPriority(.defaultHigh, for: .horizontal)
         view.setContentHuggingPriority(.defaultHigh, for: .vertical)
     }
 }
-#endif
+
+extension PreviewDevice: Hashable {
+    public static let selected: [PreviewDevice] = [.init(stringLiteral: "iPhone 13 Mini"),
+                                              .init(stringLiteral: "iPhone 13"),
+                                              .init(stringLiteral: "iPhone 13 Pro Max")]
+}
 
 
-//struct BestInClassPreviews_Previews: PreviewProvider {
-//    static var previews: some View {
-//        UIViewControllerPreview {
-//            // Return whatever controller you want to preview
-//            let vc = MyViewControllerToTest()
-//            return vc
-//        }
-//    }
-//}
+public extension ContentSizeCategory {
+    static let sizes: [ContentSizeCategory] = [.extraSmall, .large, .accessibilityExtraExtraExtraLarge]
+}
+
+
+
