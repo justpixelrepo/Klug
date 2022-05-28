@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:HomePassExample/HomePassExample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../Nett/NettExample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../KlugMainApp/KlugMainApp.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../HomePassKit">
+   </FileRef>
+   <FileRef
+      location = "group:">
+   </FileRef>
+</Workspace>
