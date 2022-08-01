@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F9E22FA284333E80052CF0D /* AuthenticationUI in Frameworks */ = {isa = PBXBuildFile; productRef = 9F9E22F9284333E80052CF0D /* AuthenticationUI */; };
 		9FD9E7672842510600EFDBD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD9E7662842510600EFDBD4 /* AppDelegate.swift */; };
 		9FD9E7692842510600EFDBD4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD9E7682842510600EFDBD4 /* SceneDelegate.swift */; };
 		9FD9E76B2842510600EFDBD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD9E76A2842510600EFDBD4 /* ViewController.swift */; };
@@ -31,17 +32,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F9E22FA284333E80052CF0D /* AuthenticationUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F9E22F8284333E80052CF0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9FD9E75A2842510500EFDBD4 = {
 			isa = PBXGroup;
 			children = (
 				9FD9E7652842510600EFDBD4 /* HomePassExample */,
 				9FD9E7642842510500EFDBD4 /* Products */,
+				9F9E22F8284333E80052CF0D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +93,9 @@
 			dependencies = (
 			);
 			name = HomePassExample;
+			packageProductDependencies = (
+				9F9E22F9284333E80052CF0D /* AuthenticationUI */,
+			);
 			productName = HomePassExample;
 			productReference = 9FD9E7632842510500EFDBD4 /* HomePassExample.app */;
 			productType = "com.apple.product-type.application";
@@ -292,7 +305,6 @@
 				INFOPLIST_FILE = HomePassExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +332,6 @@
 				INFOPLIST_FILE = HomePassExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +369,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9F9E22F9284333E80052CF0D /* AuthenticationUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AuthenticationUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9FD9E75B2842510500EFDBD4 /* Project object */;
 }

@@ -14,6 +14,8 @@ let package = Package(
         .library(name: "StateManagment", targets: ["StateManagment"]),
         .library(name: "Nett", targets: ["Nett"]),
         .library(name: "Relative", targets: ["Relative"]),
+        .library(name: "Widgety", targets: ["Widgety"]),
+        .library(name: "Charts", targets: ["Charts"]),
         
         // Point Free Inspiration
         .library(name: "AppFeature", targets: ["AppFeature"]),
@@ -34,24 +36,29 @@ let package = Package(
         .target(name: "Nett", dependencies: [
             "Relative"
         ]),
-        .target(name: "Relative"),
+        .target(
+            name: "Relative"),
         
-        .target(name: "StateManagment"),
+            .target(name: "Widgety"),
         
-        .target(name: "Accessibility"),
+            .target(name: "Charts"),
         
-        .target(name: "Klug",
-                dependencies: [
-                    "Accessibility",
-                    "KlugHelpers"
-                ]),
+            .target(name: "StateManagment"),
         
-        .target(name: "KlugHelpers"),
+            .target(name: "Accessibility"),
         
-        .target(name: "HabitTrackerButtons",
-                dependencies: ["Klug", "KlugHelpers"]),
+            .target(name: "Klug",
+                    dependencies: [
+                        "Accessibility",
+                        "KlugHelpers"
+                    ]),
         
-        .target(name: "Animation"),
+            .target(name: "KlugHelpers"),
+        
+            .target(name: "HabitTrackerButtons",
+                    dependencies: ["Klug", "KlugHelpers"]),
+        
+            .target(name: "Animation"),
         
         // Point Free Inspiration
         .target(name: "Models"),
