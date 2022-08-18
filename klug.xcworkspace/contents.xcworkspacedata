@@ -2,13 +2,13 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:HomePassExample/../KlugMainApp/KlugMainApp.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:HomePassExample/HomePassExample.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:../Nett/NettExample.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:../KlugMainApp/KlugMainApp.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:../HomePassKit">

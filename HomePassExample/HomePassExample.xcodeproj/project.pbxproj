@@ -16,7 +16,60 @@
 		9FD9E7732842510700EFDBD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FD9E7712842510700EFDBD4 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		9F70365D28AE25AC00587B85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F70365328AE25AC00587B85 /* KlugMainApp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9F39A5CB26E2F784009253CB;
+			remoteInfo = KlugMainApp;
+		};
+		9F70365F28AE25AC00587B85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F70365328AE25AC00587B85 /* KlugMainApp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9FC620FF270E61F800942638;
+			remoteInfo = NavigationPreviewApp;
+		};
+		9F70366128AE25AC00587B85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F70365328AE25AC00587B85 /* KlugMainApp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9F44E9CF271713CF0074A8D6;
+			remoteInfo = AnimationPreviewApp;
+		};
+		9F70366328AE25AC00587B85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F70365328AE25AC00587B85 /* KlugMainApp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9F43942B273572AA001895E6;
+			remoteInfo = HabitTrackerPreviewApp;
+		};
+		9F70366528AE25AC00587B85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F70365328AE25AC00587B85 /* KlugMainApp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9FD5B7262771EBB700C4833B;
+			remoteInfo = ItemRowPreviewApp;
+		};
+		9F70366728AE25AC00587B85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F70365328AE25AC00587B85 /* KlugMainApp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9F1AC6C5277ED8C200F22E2D;
+			remoteInfo = WeatherPreviewApp;
+		};
+		9F70366928AE25AC00587B85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F70365328AE25AC00587B85 /* KlugMainApp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9FA6363D2786FE580042A7CC;
+			remoteInfo = HWSPreviewApp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		9F70365328AE25AC00587B85 /* KlugMainApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KlugMainApp.xcodeproj; path = ../KlugMainApp/KlugMainApp.xcodeproj; sourceTree = "<group>"; };
 		9FD9E7632842510500EFDBD4 /* HomePassExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomePassExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FD9E7662842510600EFDBD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FD9E7682842510600EFDBD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +92,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F70365428AE25AC00587B85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F70365E28AE25AC00587B85 /* KlugMainApp.app */,
+				9F70366028AE25AC00587B85 /* NavigationPreviewApp.app */,
+				9F70366228AE25AC00587B85 /* AnimationPreviewApp.app */,
+				9F70366428AE25AC00587B85 /* HabitTrackerPreviewApp.app */,
+				9F70366628AE25AC00587B85 /* ItemRowPreviewApp.app */,
+				9F70366828AE25AC00587B85 /* WeatherPreviewApp.app */,
+				9F70366A28AE25AC00587B85 /* HWSPreviewApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		9F9E22F8284333E80052CF0D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -49,6 +116,7 @@
 		9FD9E75A2842510500EFDBD4 = {
 			isa = PBXGroup;
 			children = (
+				9F70365328AE25AC00587B85 /* KlugMainApp.xcodeproj */,
 				9FD9E7652842510600EFDBD4 /* HomePassExample */,
 				9FD9E7642842510500EFDBD4 /* Products */,
 				9F9E22F8284333E80052CF0D /* Frameworks */,
@@ -126,12 +194,70 @@
 			mainGroup = 9FD9E75A2842510500EFDBD4;
 			productRefGroup = 9FD9E7642842510500EFDBD4 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9F70365428AE25AC00587B85 /* Products */;
+					ProjectRef = 9F70365328AE25AC00587B85 /* KlugMainApp.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				9FD9E7622842510500EFDBD4 /* HomePassExample */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9F70365E28AE25AC00587B85 /* KlugMainApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = KlugMainApp.app;
+			remoteRef = 9F70365D28AE25AC00587B85 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9F70366028AE25AC00587B85 /* NavigationPreviewApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = NavigationPreviewApp.app;
+			remoteRef = 9F70365F28AE25AC00587B85 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9F70366228AE25AC00587B85 /* AnimationPreviewApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = AnimationPreviewApp.app;
+			remoteRef = 9F70366128AE25AC00587B85 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9F70366428AE25AC00587B85 /* HabitTrackerPreviewApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = HabitTrackerPreviewApp.app;
+			remoteRef = 9F70366328AE25AC00587B85 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9F70366628AE25AC00587B85 /* ItemRowPreviewApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ItemRowPreviewApp.app;
+			remoteRef = 9F70366528AE25AC00587B85 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9F70366828AE25AC00587B85 /* WeatherPreviewApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = WeatherPreviewApp.app;
+			remoteRef = 9F70366728AE25AC00587B85 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9F70366A28AE25AC00587B85 /* HWSPreviewApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = HWSPreviewApp.app;
+			remoteRef = 9F70366928AE25AC00587B85 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		9FD9E7612842510500EFDBD4 /* Resources */ = {
