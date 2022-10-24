@@ -1,16 +1,16 @@
-// swift-tools-version:5.5
+// swift-tools-version:5.7
 
 import PackageDescription
 
 let package = Package(
     name: "Klug",
-    platforms: [.iOS(.v15), .macOS(.v12)],
+    platforms: [.iOS(.v16), .macOS(.v12)],
     products: [
         .library(name: "Klug", targets: ["Klug"]),
         .library(name: "KlugHelpers", targets: ["KlugHelpers"]),
         .library(name: "HabitTrackerButtons", targets: ["HabitTrackerButtons"]),
         .library(name: "Animation", targets: ["Animation"]),
-        .library(name: "Accessibility", targets: ["Accessibility"]),
+        .library(name: "AccessibilityKit", targets: ["AccessibilityKit"]),
         .library(name: "StateManagment", targets: ["StateManagment"]),
         .library(name: "Nett", targets: ["Nett"]),
         .library(name: "Relative", targets: ["Relative"]),
@@ -38,11 +38,11 @@ let package = Package(
         
         .target(name: "StateManagment"),
         
-        .target(name: "Accessibility"),
+        .target(name: "AccessibilityKit"),
         
         .target(name: "Klug",
                 dependencies: [
-                    "Accessibility",
+                    "AccessibilityKit",
                     "KlugHelpers"
                 ]),
         
