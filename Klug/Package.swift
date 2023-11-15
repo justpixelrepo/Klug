@@ -11,6 +11,7 @@ let package = Package(
         .library(name: "HabitTrackerButtons", targets: ["HabitTrackerButtons"]),
         .library(name: "Animation", targets: ["Animation"]),
         .library(name: "AccessibilityKit", targets: ["AccessibilityKit"]),
+        .library(name: "AppleWatchStoreKit", targets: ["AppleWatchStoreKit"]),
         .library(name: "StateManagment", targets: ["StateManagment"]),
         .library(name: "Nett", targets: ["Nett"]),
         .library(name: "Relative", targets: ["Relative"]),
@@ -52,6 +53,8 @@ let package = Package(
                 dependencies: ["Klug", "KlugHelpers"]),
         
         .target(name: "Animation"),
+        
+        .target(name: "AppleWatchStoreKit"),
         
         // Point Free Inspiration
         .target(name: "Models"),

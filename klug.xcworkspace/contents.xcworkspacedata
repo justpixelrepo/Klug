@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:">
+      location = "group:AppleWatchStore.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Klug">
    </FileRef>
 </Workspace>

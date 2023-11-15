@@ -1,18 +1,7 @@
 import UIKit
 
 import SwiftUI
-struct ContentView: View {
-    var body: some View {
-        VStack {
-            Text ("WWDC 2021")
-                .accessibilityAddTraits(.isHeader)
-            Text ("SwiftUI Accessibility")
-            Text ("Beyond the Basics")
-            Image(systemName:
-                    "checkmark.seal.fill")
-        }
-    }
-}
+
 
 class VoiceOverViewController: UIViewController {
 
@@ -60,6 +49,10 @@ class VoiceOverViewController: UIViewController {
         present(alert, animated: true)
         
     }
+    
+    override class func accessibilityActivate() -> Bool {
+        true
+    }
 }
 
 
@@ -81,7 +74,6 @@ struct VoiceOverViewControllerPreview: UIViewControllerRepresentable {
 struct VoiceOverViewController_Preview: PreviewProvider {
     static var previews: some View {
         VoiceOverViewControllerPreview().ignoresSafeArea()
-        ContentView()
            
     }
 }

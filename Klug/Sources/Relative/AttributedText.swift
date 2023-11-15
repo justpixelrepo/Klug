@@ -26,6 +26,13 @@ public final class AttributedText {
         return self
     }
     
+    public func align(alignment: NSTextAlignment) -> Self {
+        let paragraph = NSMutableParagraphStyle()
+        paragraph.alignment = alignment
+        self.attribute.addAttribute(.paragraphStyle, value: paragraph, range: range)
+        return self
+    }
+    
     public func build() -> NSMutableAttributedString {
         return attribute
     }
